@@ -79,6 +79,7 @@ a:hover{
   background-image: url("img/header_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 50px 0;
 }
 
@@ -105,6 +106,7 @@ a:hover{
 .header-content-wrapper{
   margin: 30px auto;
   max-width: 1200px;
+  padding-bottom: 20px;
 }
 
 .header-button{
@@ -356,6 +358,27 @@ a:hover{
 }
 
 
+@media screen and (max-width: 1450px){
+  .header-promo-wrapper{
+    margin-bottom: 45px;
+  }
+  .header-container h2{
+    font-size: 34px;
+  }
+  .header-container h3{
+    font-size: 60px;
+  }
+  .header-container h4{
+    font-size: 28px;
+  }
+  .header-content-wrapper p{
+    font-size: 20px;
+  }
+  .header-content-wrapper{
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (max-width: 1070px){
   .present-text-wrapper{
     width: 800px;
@@ -393,8 +416,42 @@ a:hover{
   }
 }
 
+@media screen and (max-width: 828px){
+  .header-container h3{
+    font-size: 40px;
+  }
+  .header-container h4{
+    font-size: 20px;
+  }
+  .header-content-wrapper{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .header-line{
+    width: 150px;
+  }
+  .header-promo-wrapper{
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 570px){
   .expect-title-wrapper{
     width: 400px;
   }
+  .header-container h3{
+    font-size: 30px;
+  }
+  .header-promo-wrapper{
+    margin-bottom: 10px;
+  }
+  .header-line{
+    width: 100px;
+  }
 }
+
+
+
+
